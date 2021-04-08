@@ -21,10 +21,6 @@ GLvoid Rectangle(GLfloat x, GLfloat y, GLfloat z)
     glutSolidCube(1.0f);
     glutSolidSphere(0.5,0.0,0.0,0.0);
     glRotatef(90,1.0,0.0,0.0);
-    glRotatef(-90,1.0,0.0,0.0);
-    glTranslatef(-1.0,0.0,0.0);
-
-    glutSolidCube(0.5,0.5,0.5);
   }
   glPopMatrix();  
 } 
