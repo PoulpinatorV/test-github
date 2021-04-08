@@ -6,5 +6,3 @@
 
 void axes(void);
 #endif
-
-
