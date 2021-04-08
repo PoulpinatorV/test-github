@@ -19,6 +19,7 @@ GLvoid Rectangle(GLfloat x, GLfloat y, GLfloat z)
   {
     glScalef(x,y,z);
     glutSolidCube(1.0f);
+    glutSolidSphere(0.5,0.0,0.0,0.0);
   }
   glPopMatrix();  
 } 
