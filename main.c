@@ -26,6 +26,8 @@ GLvoid Rectangle(GLfloat x, GLfloat y, GLfloat z)
 
     glutSolidCube(0.5,0.5,0.5);
   }
+
+  
   glPopMatrix();  
 } 
 
